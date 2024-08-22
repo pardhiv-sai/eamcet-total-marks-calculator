@@ -5,7 +5,7 @@ let eamcet_marks = document.querySelector("#eamcet_marks_input").value;
 ipe_marks = Number(ipe_marks);
 eamcet_marks = Number(eamcet_marks);
 
-let total_converted_marks = 0.25*ipe_marks + 0.75*eamcet_marks;
+let total_converted_marks = (ipe_marks/600)*25 + (eamcet_marks/160)*75;
 
 let submit_btn = document.querySelector(".submit-btn");
 submit_btn.classList.add("hidden");
