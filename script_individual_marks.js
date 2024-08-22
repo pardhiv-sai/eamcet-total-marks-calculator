@@ -1,3 +1,4 @@
+alert("hi");
 document.querySelector("#submit-btn-btn").addEventListener("click",()=>{
     let mathsy1AInput = Number(document.querySelector("#mathsy1AInput").value);
 let mathsy1BInput = Number(document.querySelector("#mathsy1BInput").value);
